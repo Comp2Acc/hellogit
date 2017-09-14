@@ -1,5 +1,8 @@
 #include "Zoo.h"
+#include <string>
+#include <iostream>
 using namespace std;
+
 Zoo::Zoo(string a, int c)
 {
 	animals = a;
@@ -18,7 +21,7 @@ string Zoo::getName()
 
 void Zoo::setNumber(int c)
 {
-	number = c;
+	num = c;
 }
 
 int Zoo::getNumber()
