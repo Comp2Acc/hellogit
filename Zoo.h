@@ -4,14 +4,14 @@
 class Zoo
 {
 	public:
-		Zoo (string a, int c);
-		void setName(string);
-		string getName();
+		Zoo (std::string a, int c);
+		void setName(std::string);
+		std::string getName();
 		void setNUmber(int);
 		int getNumber();
 		
 	private:
-		string animals;
+		std::string animals;
 		int num:
 };
 

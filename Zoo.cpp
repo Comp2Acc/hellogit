@@ -1,5 +1,5 @@
 #include "Zoo.h"
-
+using namespace std;
 Zoo::Zoo(string a, int c)
 {
 	animals = a;
